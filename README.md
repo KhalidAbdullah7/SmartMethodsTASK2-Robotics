@@ -70,8 +70,10 @@ source ~/.bashrc
 and finally the next command will launch ros:
 
 
-roslaunch robot_arm_pkg check_motors.launch
+<pre> roslaunch robot_arm_pkg check_motors.launch
+</pre>
+
 ![image](https://user-images.githubusercontent.com/107816408/181072967-44075884-cf40-48ac-914b-d9845d337892.png)
 
-and we can move the arm by using the joint state
+Now we can move the arm by using the joint state
 
