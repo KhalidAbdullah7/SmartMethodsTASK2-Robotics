@@ -2,8 +2,11 @@
 Robot Operating System (ROS):
 
 To set up ros on our VM we need to follow the steps:
+
 ![image](https://user-images.githubusercontent.com/107816408/181071497-5f986c8c-2d71-44de-9c93-7ab48feccea7.png)
+
 Open the terminal and insert these commands:
+
 sudo sh -c 'echo "deb http://packages.ros.org/ros/ubuntu $(lsb_release -sc) main" > /etc/apt/sources.list.d/ros-latest.list'
 
 sudo apt-key adv --keyserver 'hkp://keyserver.ubuntu.com:80' --recv-key C1CF6E31E6BADE8868B172B4F42ED6FBAB17C654
